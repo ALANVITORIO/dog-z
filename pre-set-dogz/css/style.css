@@ -1,0 +1,206 @@
+/* Path: css\style.css */
+
+body {
+  background-color: #000;
+}
+
+header {
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100%;
+}
+
+section {
+  background-color: #000;
+  color: #fff;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'montserrat', sans-serif;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 150px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #190606;
+  transition: all 0.3s ease;
+}
+ul li :hover {
+  color: red;
+  cursor: pointer;
+}
+
+ul li:first-child img[src='/pre-set-dogz/img/refatored.png'] {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: -100px;
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+button:hover {
+  background-color: #6f098b;
+  cursor: pointer;
+}
+ul li:hover {
+  color: #6f098b;
+}
+
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.video-background-holder video {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+}
+
+.video-background-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+.video-fundo a button {
+  position: relative;
+  bottom: 200px;
+  margin: auto;
+  z-index: 100 !important;
+  right: 25px;
+  background: #f1f1f1;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+.video-fundo a button:hover {
+  background-color: #6f098b;
+  cursor: pointer;
+}
+
+button {
+  position: fixed;
+  bottom: 200px;
+  margin: auto;
+  z-index: 100 !important;
+  right: 25px;
+  background: #f1f1f1;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+section .lancamento {
+  background-image: url(/pre-set-dogz/img/refatored.png);
+}
+img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.astro h2 {
+  padding-top: 50px;
+  padding-bottom: 200px;
+  font-size: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: red;
+}
+.astro p {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: justify;
+}
+
+.plataformas ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.plataformas ul li a hoover {
+  color: #6f098b;
+  cursor: pointer;
+}
+.footer p {
+  background-color: #000;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
